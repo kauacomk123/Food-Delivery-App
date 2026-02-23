@@ -7,7 +7,6 @@ import { StoreContext } from '../../context/StoreContext'
 const FoodItem = ({id,name,price,description,image}) => {
   console.log("Renderizando item Id:", id);
   
-
   const {cartItems,addToCart,removeFromCart} = useContext(StoreContext);
 
   return (
